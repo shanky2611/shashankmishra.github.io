@@ -1,0 +1,146 @@
+
+
+
+
+html, body
+{
+    margin: 0px;
+	background-image: url(joker.jpg);
+}
+
+header, footer
+{
+    font-family:"Times New Roman", Times, serif;
+    margin: 0 auto;
+	padding: 5em 3em;
+	text-align: center;
+    background-image:url(music.jpg);
+}
+
+header h1
+{
+    color: black;
+    font-size: 40px;
+    font-weight: strong;
+    margin-bottom: 5px;
+}
+
+header span
+{
+    color: #222;
+}
+
+footer span
+{
+  color: #AAA;
+}
+
+div.container
+{
+    font-family: Avantgarde, sans-serif;
+    margin: 0 auto;
+	padding: 10em 3em;
+	text-align: center;
+}
+
+div.container a
+{
+    color: red;
+    text-decoration: none;
+	font-weight: 900;
+    font: 40px Raleway;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+
+.blue
+{
+    
+}
+
+div.topnav a:before, div.topnav a:after
+{
+    position: absolute;
+    opacity: 0.5;
+    height: 100%;
+    width: 2px;
+    content: '';
+    background: #FFF;
+    transition: all 0.3s;
+	animation-delay: 7s;
+}
+
+div.topnav a:before
+{
+    left: 0px;
+    top: 0px;
+}
+
+div.topnav a:after
+{
+    right: 0px;
+    bottom: 0px;
+}
+
+div.topnav a:hover:before, div.topnav a:hover:after
+{
+    opacity: 1;
+    height: 2px;
+    width: 3px;
+}
+a:active {
+    background-color: #555;
+} 
+img{
+    border-radius: 5%;
+	 position: relative;
+    top: 80px;
+   left: 0px;
+ 
+}
+div.text{
+	position: relative;
+    top: 100px;
+   left: 0px;
+}
+
+div.background {
+  background: url(home.jpg) repeat;
+  border: 2px solid black;
+}
+div.background-about {
+  background: url(chill.jpg) ;
+  align:center;
+  border: 2px solid black;
+}
+div.background-contact {
+  background: url(contact.jpg) ;
+  border: 3px solid black;
+}
+div.background-interest {
+  background: url(interest1.jpg) ;
+  border: 3px solid black;
+}
+div.background-skills{
+  background: url(skills.jpg) ;
+  border: 3px solid black;
+}
+div.transbox {
+  margin: 10px;
+  background-color: #ffffff;
+  border: 3px solid black;
+  opacity: 0.5;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+div.transbox p {
+  margin: 25%;
+  font-weight: 900;
+  color: #000000;
+}
+iframe1:hover{
+	font-size:150%;
+}
